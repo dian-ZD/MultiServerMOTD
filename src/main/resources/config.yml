@@ -1,0 +1,30 @@
+# MultiServerMOTD 配置文件
+ScriptIrc-config-version: 1
+
+# MOTD 第一行文本（支持颜色代码 &）
+first-line: "&a欢迎来到我们的服务器网络！"
+
+# MOTD 第二行文本（支持颜色代码 &）
+# 可用变量：
+# %total% - 所有服务器的总在线人数
+# %online% - 本服务器的在线人数
+second-line: "&e总在线人数：&6%total%"
+
+# 服务器列表（格式：地址:端口）
+# 支持添加多个服务器
+servers:
+  - "server2.example.com:25565"
+  - "server3.example.com:25566"
+
+# 人数刷新频率（秒）
+# 建议不要设置得太低，避免对其他服务器造成压力
+refresh-interval: 30
+
+# 离线服务器处理方式
+# ignore - 忽略离线服务器，不计入总数
+# zero - 视为0人在线，计入总数
+# error - 在MOTD中显示错误信息
+offline-handling: "ignore"
+
+# 是否启用调试模式
+debug: false

@@ -1,0 +1,20 @@
+name: MultiServerMOTD
+version: '1.0.0'
+main: io.Sriptirc_wp_989.multiservermotd.Multiservermotd
+api-version: '1.21'
+authors: ['wp:989']
+description: '一个可以显示多服务器总在线人数的MOTD插件'
+commands:
+    multiservers:
+        description: '显示多服务器状态信息'
+        aliases: ['ms', 'msstatus']
+    multiserversreload:
+        description: '重载插件配置'
+        aliases: ['msreload']
+permissions:
+    multiservers.use:
+        description: '使用多服务器人数显示插件的命令权限'
+        default: false
+    multiservers.reload:
+        description: '重载多服务器人数显示插件配置的权限'
+        default: false
