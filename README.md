@@ -100,7 +100,7 @@ debug: false
 
 - 当前版本: 1.0.0
 - 支持Minecraft版本: 1.21.x
-- 作者: wp:989
+- 作者:dian-ZD
 
 ## 问题反馈
 
