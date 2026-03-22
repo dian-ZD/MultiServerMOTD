@@ -1,6 +1,7 @@
 # MultiServerMOTD - 多服务器人数显示插件
 
 一个Bukkit/Spigot插件，可以显示多个服务器的总在线人数在MOTD第二行上，第一行支持自定义文本。
+使用原版transfer指令的群组服务器人数显示解决方案
 
 ## 功能特性
 
