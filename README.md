@@ -96,14 +96,6 @@ debug: false
 - MOTD更新是实时的，当有玩家查看服务器列表时生效
 - 确保目标服务器开启了服务器列表查询功能
 
-## 编译
-
-如果你使用ScriptIrc Engine：
-
-1. 点击左侧「导出项目」获取 .sirc 文件
-2. 将该文件放入：`plugins/ScriptIrc/scripts/src/`
-3. 在服务器或控制台执行：`/scriptirc compiler <插件名>`
-
 ## 版本信息
 
 - 当前版本: 1.0.0
